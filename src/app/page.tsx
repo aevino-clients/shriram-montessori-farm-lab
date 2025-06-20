@@ -17,7 +17,7 @@ import ClosingSection from '@/components/ClosingSection';
 export const metadata: Metadata = {
 	title: 'Shriram Montessori | Farm Lab',
 	description:
-		'Every solution is designed with your success in mind – scalable, secure, and built to last',
+		'We aim to ignite a lifelong connection to food and farming, fostering understanding, respect, and a deep appreciation for the vital role of farmers in our community',
 	// other metadata
 };
 
