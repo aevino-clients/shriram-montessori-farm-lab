@@ -14,7 +14,7 @@ const Hero = () => {
 		<>
 			<section
 				id="home"
-				className="pt-[80px] md:pt-0 lg:pt-0  dark:bg-gray-dark relative z-10 overflow-hidden bg-white   md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pb-[200px]"
+				className="pt-[80px] md:pt-[80px] lg:pt-[140px]  dark:bg-gray-dark relative z-10 overflow-hidden bg-white   md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pb-[200px]"
 			>
 				<div className="h-[240px] md:h-[440px] lg:h-[440px] w-full relative">
 					<Carousel

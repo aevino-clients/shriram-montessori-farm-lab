@@ -205,8 +205,8 @@ const Header = () => {
 														className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-4 ${
 															usePathName ===
 															menuItem.path
-																? 'text-sub-theme'
-																: 'text-body-color hover:text-sub-theme dark:text-white/70 dark:hover:text-white'
+																? 'text-sub-theme '
+																: 'text-body-color md:text-white lg:text-white xl:text-white 2xl:text-white hover:text-sub-theme dark:text-white/70 dark:hover:text-white'
 														}`}
 													>
 														{menuItem.title}
@@ -220,7 +220,7 @@ const Header = () => {
 																	200
 																)
 															}
-															className={`flex py-2 cursor-pointer text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-4 ${'text-body-color hover:text-sub-theme dark:text-white/70 dark:hover:text-white'}`}
+															className={`flex py-2 cursor-pointer text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-4 ${'text-body-color  lg:text-white hover:text-sub-theme dark:text-white/70 dark:hover:text-white'}`}
 														>
 															{menuItem.title}
 														</p>
