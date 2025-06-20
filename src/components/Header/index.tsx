@@ -67,11 +67,11 @@ const Header = () => {
 							/>
 						</a>
 						<span className="flex h-full items-center justify-center ">
-							<b className="flex h-[70px] items-center justify-center w-[1px] bg-gray-400 "></b>
+							<b className="flex h-[40px] md:h-[70px] lg:h-[70px] xl:h-[70px] 2xl:h-[70px] items-center justify-center w-[1px] bg-gray-400 "></b>
 						</span>
 						<h4
 							data-aos={'fade-left-subtle'}
-							className="flex h-full text-gray-600 items-center justify-center md:text-[45px] text-3xl lg:text-4xl"
+							className="flex h-full text-gray-600 items-center justify-center md:text-[45px] text-md lg:text-4xl xl:text-3x 2xl:text-3xl"
 						>
 							<span className="text-sub-theme mr-2">Farm</span>{' '}
 							Lab
@@ -206,7 +206,7 @@ const Header = () => {
 															usePathName ===
 															menuItem.path
 																? 'text-sub-theme'
-																: 'text-gray-200 hover:text-sub-theme dark:text-white/70 dark:hover:text-white'
+																: 'text-body-color hover:text-sub-theme dark:text-white/70 dark:hover:text-white'
 														}`}
 													>
 														{menuItem.title}
@@ -220,7 +220,7 @@ const Header = () => {
 																	200
 																)
 															}
-															className={`flex py-2 cursor-pointer text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-4 ${'text-gray-200 hover:text-sub-theme dark:text-white/70 dark:hover:text-white'}`}
+															className={`flex py-2 cursor-pointer text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-4 ${'text-body-color hover:text-sub-theme dark:text-white/70 dark:hover:text-white'}`}
 														>
 															{menuItem.title}
 														</p>
